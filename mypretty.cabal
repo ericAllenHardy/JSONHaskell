@@ -1,0 +1,18 @@
+Name: mypretty
+Version: 0.1
+
+Synopsis: A Json prettyPrinting package, based on Ch5 of Real World Haskell
+Description:
+  Contains: several JSON string printers, based on a special data type 
+  Planned:  parsec-based JSON string parser
+  Needed:   Test suite
+Author: Eric Hardy, with guidance from Real World Haskell
+Maintainer: eric.allen.hardy@gmail.com
+Cabal-Version: >= 1.2
+build-type: Simple
+
+library
+  Exposed-Modules: Prettify
+                   PrettyJSON
+                   SimpleJSON
+  Build-Depends: base >= 2.0
